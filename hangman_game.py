@@ -76,7 +76,7 @@ def hangman(secretWord):
     print("I am thinking of a word that is", len(secretWord) ,"letters long")
     print("-----------")
     l=[]
-    mistakesMade = 8
+    mistakesMade = 6
     while mistakesMade > 0 :
         print("You have" , mistakesMade , "guesses left.")
         print("Available letters: " ,end='')
